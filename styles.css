@@ -1,12 +1,12 @@
 body {
     font-family: Yu Gothic;
-    background-color: #70c9c8;
+    /*background-color: #70c9c8;*/
   }
   .light-theme {
         background-color: #70c9c8;
   }
   .dark-theme {
-        background-color: #1a1a1a;
+        background-color: #20009f;
   }
   
   .chat-container {
