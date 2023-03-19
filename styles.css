@@ -1,6 +1,12 @@
 body {
-    font-family: sans-serif;
-    background-color: #f0f0f0;
+    font-family: Yu Gothic;
+    background-color: #70c9c8;
+  }
+  .light-theme {
+        background-color: #70c9c8;
+  }
+  .dark-theme {
+        background-color: #1a1a1a;
   }
   
   .chat-container {
@@ -54,4 +60,19 @@ body {
     border-width: 10px 0 0 10px;
     border-color: transparent transparent transparent #ffffff;
   }
-  
+  /* ボタンのデザイン */
+  .btn {
+    color: white; /* 文字色 */
+    background-color: darkblue; /* 背景色 */
+    border: none; /* 枠線は無し */
+
+    /* ボタンの形状 */
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+
+    /*ボタンの位置*/
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
